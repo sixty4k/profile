@@ -1,4 +1,4 @@
-PROFILE_REPO="https://github.com/matschaffer/profile.git"
+PROFILE_REPO="https://github.com/sixty4k/profile.git"
 PROFILE_PATH=".profile.d"
 
 if ! type -p git; then
