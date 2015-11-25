@@ -5,6 +5,9 @@ Grabbed from https://github.com/matschaffer/profile, and slowly but surely rippe
 
 Installation
 ------------
+On a brand new mac, to set things up the way *Mike* wants things, try this:
+
+    curl -O https://raw.githubusercontent.com/sixty4k/profile/master/bin/rebuild_mac.sh && bash ./rebuild_mac.sh
 
     curl -s https://raw.github.com/sixty4k/profile/master/install | bash
 
