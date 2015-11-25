@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #MAS Installs
 echo "Go to the App Store and install all the things in Purchased"
 echo "install XCode specifically"
