@@ -235,6 +235,11 @@ defaults write com.apple.mail DraftsViewerAttributes -dict-add "SortOrder" -stri
 # Disable inline attachments (just show the icons)
 defaults write com.apple.mail DisableInlineAttachmentViewing -bool true
 
+# Disable opening photos or other program on attaching a 'camera'
+
+defaults write com.apple.ImageCapture disableHotPlug -bool YES
+
+
 echo "Setting up Bash Profile"
 
 curl -s https://raw.github.com/sixty4k/profile/master/install | bash
