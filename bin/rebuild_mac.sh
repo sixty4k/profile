@@ -43,13 +43,10 @@ brews=(
     remind101/formulae/assume-role
     amazon-ecs-cli
     awscli
-    brew-cask
     brew-cask-completion
     bash-completion
     curl
     moul/moul/docker-diff
-    ec2-api-tools
-    elb-tools
     fzf
     git
     googler
@@ -116,11 +113,10 @@ casks=(
     iterm2
     launchrocket
     nvalt
-    sublime
-    sublime
+    sublime-text
+    sublime-merge
     vagrant
     virtualbox
-    xquartz
 )
 
 fonts=(
