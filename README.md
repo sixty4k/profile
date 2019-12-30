@@ -20,10 +20,3 @@ This profile loads `init` first, followed by all the `.conf` files in `.profile.
 
 Features
 --------
-
-bits and pieces.
-
-Contributing
-------------
-
-As noted in the LICENSE file. This is all MIT licensed code, so do what you will. But to make things easy for contributions please keep all stuff in core as generic as possible so others can merge it into their own forks. If you need any personal stuff (e.g., API Keys), keep that in a separate git repository that loads this repo as a submodule.
