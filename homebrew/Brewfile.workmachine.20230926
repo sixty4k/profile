@@ -1,0 +1,178 @@
+tap "browsh-org/browsh"
+tap "danielthank/tap"
+tap "hashicorp/tap"
+tap "heroku/brew"
+tap "homebrew/bundle"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/services"
+tap "jakehilborn/jakehilborn"
+tap "moul/moul"
+tap "remind101/formulae"
+tap "tomanthony/brews"
+tap "warrensbox/tap"
+brew "adr-tools"
+brew "amazon-ecs-cli"
+brew "zstd"
+brew "jpeg-xl"
+brew "aom"
+brew "apr-util"
+brew "openssl@1.1"
+brew "python@3.11"
+brew "docutils"
+brew "awscli"
+brew "bash"
+brew "bash-completion"
+brew "brew-cask-completion"
+brew "cloc"
+brew "colordiff"
+brew "coreutils"
+brew "libssh2"
+brew "openldap"
+brew "rtmpdump"
+brew "curl"
+brew "discount"
+brew "docker"
+brew "driftctl"
+brew "eksctl"
+brew "libavif"
+brew "gd"
+brew "gh"
+brew "ghostscript"
+brew "git"
+brew "git-delta"
+brew "git-filter-repo"
+brew "gnu-sed"
+brew "libevent"
+brew "p11-kit"
+brew "unbound"
+brew "gnutls"
+brew "go"
+brew "go@1.18"
+brew "netpbm"
+brew "librsvg"
+brew "graphviz"
+brew "grep"
+brew "html2text"
+brew "jq"
+brew "ijq"
+brew "libheif"
+brew "imagemagick"
+brew "ipcalc"
+brew "kubernetes-cli"
+brew "lame"
+brew "libfido2"
+brew "libssh"
+brew "lynx"
+brew "mas"
+brew "mysql-client"
+brew "nghttp2"
+brew "nmap"
+brew "node"
+brew "nvm"
+brew "packer"
+brew "pandoc"
+brew "plantuml"
+brew "virtualenv"
+brew "pre-commit"
+brew "pwgen"
+brew "python@3.10"
+brew "python@3.7"
+brew "python@3.9"
+brew "rbenv"
+brew "ruby"
+brew "s3cmd"
+brew "sleepwatcher", restart_service: true
+brew "stoken"
+brew "subversion"
+brew "tcl-tk"
+brew "telnet"
+brew "terminal-notifier"
+brew "terraform-docs"
+brew "terraform_landscape"
+brew "tfenv", link: false
+brew "tflint"
+brew "tfsec"
+brew "thefuck"
+brew "tree"
+brew "w3m"
+brew "watch"
+brew "wget"
+brew "wireshark", link: false
+brew "yarn"
+brew "yq"
+brew "browsh-org/browsh/browsh"
+brew "hashicorp/tap/vault"
+brew "heroku/brew/heroku"
+brew "jakehilborn/jakehilborn/displayplacer"
+brew "moul/moul/docker-diff"
+brew "tomanthony/brews/itermocil"
+brew "warrensbox/tap/tfswitch"
+cask "1password-cli"
+cask "alfred", args: { appdir: "~/Applications" }
+cask "amethyst", args: { appdir: "~/Applications" }
+cask "aws-vault", args: { appdir: "~/Applications" }
+cask "barrier", args: { appdir: "~/Applications" }
+cask "bleunlock", args: { appdir: "~/Applications" }
+cask "cloudytabs", args: { appdir: "~/Applications" }
+cask "firefox", args: { appdir: "~/Applications" }
+cask "fluid", args: { appdir: "~/Applications" }
+cask "font-3270-nerd-font", args: { appdir: "~/Applications" }
+cask "font-agave-nerd-font", args: { appdir: "~/Applications" }
+cask "font-anonymice-nerd-font", args: { appdir: "~/Applications" }
+cask "font-arimo-nerd-font", args: { appdir: "~/Applications" }
+cask "font-aurulent-sans-mono-nerd-font", args: { appdir: "~/Applications" }
+cask "font-bigblue-terminal-nerd-font", args: { appdir: "~/Applications" }
+cask "font-bitstream-vera-sans-mono-nerd-font", args: { appdir: "~/Applications" }
+cask "font-blex-mono-nerd-font", args: { appdir: "~/Applications" }
+cask "font-caskaydia-cove-nerd-font", args: { appdir: "~/Applications" }
+cask "font-code-new-roman-nerd-font", args: { appdir: "~/Applications" }
+cask "font-cousine-nerd-font", args: { appdir: "~/Applications" }
+cask "font-daddy-time-mono-nerd-font", args: { appdir: "~/Applications" }
+cask "font-dejavu-sans-mono-nerd-font", args: { appdir: "~/Applications" }
+cask "font-droid-sans-mono-nerd-font", args: { appdir: "~/Applications" }
+cask "font-fantasque-sans-mono-nerd-font", args: { appdir: "~/Applications" }
+cask "font-fira-code-nerd-font", args: { appdir: "~/Applications" }
+cask "font-fira-mono-nerd-font", args: { appdir: "~/Applications" }
+cask "font-go-mono-nerd-font", args: { appdir: "~/Applications" }
+cask "font-gohufont-nerd-font", args: { appdir: "~/Applications" }
+cask "font-hack", args: { appdir: "~/Applications" }
+cask "font-hack-nerd-font", args: { appdir: "~/Applications" }
+cask "font-hasklug-nerd-font", args: { appdir: "~/Applications" }
+cask "font-heavy-data-nerd-font", args: { appdir: "~/Applications" }
+cask "font-hurmit-nerd-font", args: { appdir: "~/Applications" }
+cask "font-im-writing-nerd-font", args: { appdir: "~/Applications" }
+cask "font-inconsolata-go-nerd-font", args: { appdir: "~/Applications" }
+cask "font-inconsolata-lgc-nerd-font", args: { appdir: "~/Applications" }
+cask "font-inconsolata-nerd-font", args: { appdir: "~/Applications" }
+cask "font-iosevka-nerd-font", args: { appdir: "~/Applications" }
+cask "font-jetbrains-mono-nerd-font", args: { appdir: "~/Applications" }
+cask "font-lekton-nerd-font", args: { appdir: "~/Applications" }
+cask "font-liberation-nerd-font", args: { appdir: "~/Applications" }
+cask "font-meslo-lg-nerd-font", args: { appdir: "~/Applications" }
+cask "font-monofur-nerd-font", args: { appdir: "~/Applications" }
+cask "font-monoid-nerd-font", args: { appdir: "~/Applications" }
+cask "font-mononoki-nerd-font", args: { appdir: "~/Applications" }
+cask "font-mplus-nerd-font", args: { appdir: "~/Applications" }
+cask "font-noto-nerd-font", args: { appdir: "~/Applications" }
+cask "font-open-dyslexic-nerd-font", args: { appdir: "~/Applications" }
+cask "font-overpass-nerd-font", args: { appdir: "~/Applications" }
+cask "font-profont-nerd-font", args: { appdir: "~/Applications" }
+cask "font-proggy-clean-tt-nerd-font", args: { appdir: "~/Applications" }
+cask "font-roboto-mono-nerd-font", args: { appdir: "~/Applications" }
+cask "font-sauce-code-pro-nerd-font", args: { appdir: "~/Applications" }
+cask "font-shure-tech-mono-nerd-font", args: { appdir: "~/Applications" }
+cask "font-source-code-pro", args: { appdir: "~/Applications" }
+cask "font-space-mono-nerd-font", args: { appdir: "~/Applications" }
+cask "font-terminess-ttf-nerd-font", args: { appdir: "~/Applications" }
+cask "font-tinos-nerd-font", args: { appdir: "~/Applications" }
+cask "font-ubuntu-mono-nerd-font", args: { appdir: "~/Applications" }
+cask "font-ubuntu-nerd-font", args: { appdir: "~/Applications" }
+cask "font-victor-mono-nerd-font", args: { appdir: "~/Applications" }
+cask "iterm2", args: { appdir: "~/Applications" }
+cask "marked"
+cask "meld", args: { appdir: "~/Applications" }
+cask "obsidian"
+cask "sublime-merge", args: { appdir: "~/Applications" }
+cask "sublime-text", args: { appdir: "~/Applications" }
+cask "wireshark", args: { appdir: "~/Applications" }
