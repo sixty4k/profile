@@ -1,4 +1,4 @@
 *.sublime-project
 *.sublime-workspace
-*.locks.json
+*.lock.json
 .DS_Store

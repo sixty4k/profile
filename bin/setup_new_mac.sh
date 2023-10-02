@@ -10,7 +10,7 @@ cd ~
 mkdir Repos
 
 rsync -avz /Users/mrobinson/Library/Mobile\ Documents/com~apple~CloudDocs/.ssh .
-chmod 644 ~/.ssh/*
+chmod 600 ~/.ssh/*
 
 cd Repos
 git clone git@github.com:sixty4k/profile.git
