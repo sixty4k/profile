@@ -36,9 +36,9 @@ brew bundle install --file=../homebrew/Brewfile.mass
 
 brew cleanup
 
-echo "> Install all the gosh darn fonts possible"
-for i in $(brew search font | grep "font-"); do brew install ${i}; done
-# for i in $(brew search font | grep "nerd-font"); do brew install ${i}; done
-# for i in $(brew search font | grep "mono" | grep -v "nerd-font"); do brew install $i; done
+# echo "> Install all the gosh darn fonts possible"
+# for i in $(brew search font | grep "font-"); do brew install ${i}; done
+# # for i in $(brew search font | grep "nerd-font"); do brew install ${i}; done
+# # for i in $(brew search font | grep "mono" | grep -v "nerd-font"); do brew install $i; done
 
 
