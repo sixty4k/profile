@@ -1,11 +1,13 @@
 #!/bin/bash
 
-rm -fr ~/Library/Application\ Support/Sublime\ Text/Packages/User
+app_supp_sublime_folder=$(ls -d ~/Library/Application\ Support/Sublime\ * | grep Text)
+
+rm -fr "${app_supp_sublime_folder}/Packages/User"
 
 if [[ "$1" = "rsync" ]]; then
-  rsync -avz User ~/Library/Application\ Support/Sublime\ Text/Packages/
+  rsync -avz User "${app_supp_sublime_folder}/Packages/"
 
 else
-  ln -s $(pwd)/User ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+  ln -s $(pwd)/User "${app_supp_sublime_folder}/Packages/User"
 
 fi
