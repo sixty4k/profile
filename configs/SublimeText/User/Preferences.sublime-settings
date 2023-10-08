@@ -6,19 +6,15 @@
 	],
 	"animation_enabled": false,
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/Theme - Solarized Flat/Solarized Flat Dark.tmTheme",
+	"color_scheme": "Packages/Dracula Color Scheme/Dracula.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": false,
 	"fold_buttons": true,
-	"font_face": "Hack",
+	"font_face": "Comic Code",
 	"font_options":
 	[
-		"no_bold",
-		"no_italic",
-		"subpixel_antialias",
-		"no_round"
 	],
-	"font_size": 13,
+	"font_size": 12,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
