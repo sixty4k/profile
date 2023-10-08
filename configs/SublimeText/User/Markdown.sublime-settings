@@ -1,0 +1,14 @@
+{
+	"color_scheme": "Packages/Theme - Solarized Flat/Solarized Flat Dark.tmTheme",
+	"draw_centered": false,
+	"enable_table_editor": true,
+	"extensions":
+	[
+		"markdown"
+	],
+	"highlight_line": true,
+	"line_numbers": true,
+	"spell_check": true,
+	"translate_tabs_to_spaces": true,
+	"wrap_width": 0
+}

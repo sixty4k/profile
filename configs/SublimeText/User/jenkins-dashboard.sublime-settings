@@ -1,0 +1,19 @@
+{
+    // Plugin settings
+
+    // Turn the debug output on/off
+    "show_debug": false,
+
+    // The URL to the Jenkins application
+    // Examples being:
+    //   https://ci.jenkins-ci.org/
+    //   https://some-url.com:8080/
+    "jenkins_url": "https://jenkins2.lytmus.io",
+
+    // username to login to jenkins
+    "username": "sixty4k",
+
+    // password or API token to login to jenkins
+    // Token can be found here: [jenkins_url]/user/[username]/configure
+    "password": "272a433b494b2e04dd125bf2ca8c590b",
+}

@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+    """
+    1 Line: What do I do
+    Args:
+        first: what is the arg?
+           ex: 
+        second: what is this arg?
+           ex: an example
+    Returns:
+        1 line explaining what the return value is
+    """
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>docstring</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

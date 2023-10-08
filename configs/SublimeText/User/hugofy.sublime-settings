@@ -1,0 +1,9 @@
+{
+    "Directory": "/Users/mrobinson/Documents/websites/nortoncottage.com",
+    "Server": {
+        "PORT": 8000, //server port number
+        "THEME_FLAG": false, //use `--theme` flag
+        "DRAFTS_FLAG": false, //use `--buildDrafts` flag
+    },
+    "Sitename": "nortoncottage.com",
+}

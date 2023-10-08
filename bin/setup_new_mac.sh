@@ -28,7 +28,7 @@ open "/Applications/1Password 7.app"
 hitenter 1Password
 
 echo "Setup Alfred"
-echo "License key in 1Password"`
+echo "License key in 1Password"
 open "$(ls -d /Applications/Alfred*)"
 hitenter Alfred
 
@@ -44,4 +44,10 @@ echo "Apparently my ST config is super fubar."
 open "/Applications/Sublime Text.app"
 hitenter Sublime_Text
 
+echo "Setup Amethyst"
+open "/Applications/Amethyst.app"
+hitenter Amethyst
+
+echo "Setup Bash Profile"
 curl -s https://raw.githubusercontent.com/sixty4k/profile/master/install | bash
+

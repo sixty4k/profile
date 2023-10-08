@@ -1,0 +1,24 @@
+// SublimeLinter Settings - User
+{
+    "linters":
+    {
+        "groovy":{
+            "env": {
+                "GROOVY_HOME": "/usr/local/opt/groovy/libexec"
+            }
+        }
+    },
+    "paths":
+    {
+        "linux":
+        [
+        ],
+        "osx":
+        [
+            "/usr/local/opt/groovy/bin"
+        ],
+        "windows":
+        [
+        ]
+    }
+}

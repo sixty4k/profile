@@ -1,0 +1,12 @@
+// These settings override both User and Default settings for the Groovy syntax
+{
+    "wrap_as_you_type_sections": [
+        {
+            "combining_selector":
+                "source - (comment | constant | entity | invalid | keyword | punctuation | storage | string | variable)",
+            "line_start": "//",
+            "selector": "comment.line",
+            "wrap_width": 78
+        }
+    ]
+}
