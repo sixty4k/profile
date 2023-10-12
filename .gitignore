@@ -2,3 +2,4 @@
 *.sublime-workspace
 *.lock.json
 .DS_Store
+scratch/*

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# This just updates my local copies of the git prompt and git completions
+
 wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -O ../completions.conf/git-completion.conf
 wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh -O ../functions.conf/git-prompt.conf
 
