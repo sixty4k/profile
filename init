@@ -2,7 +2,7 @@ load_conf() {
   local conf
   for conf in "$1"/*.conf; do
     [ -d "${conf}" ] && load_conf "${conf}"
-    [ -f "${conf}" ] && echo "${conf}" && source "${conf}"
+    [ -f "${conf}" ] && source "${conf}" &>> ~/.bashiniterrors
   done
   return 0
 }
