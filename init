@@ -2,7 +2,7 @@ load_conf() {
   local conf
   for conf in "$1"/*.conf; do
     [ -d "${conf}" ] && load_conf "${conf}"
-    [ -f "${conf}" ] && source "${conf}" &>> ~/.bashiniterrors
+    [ -f "${conf}" ] && source "${conf}"
   done
   return 0
 }
@@ -29,12 +29,12 @@ ORIGINAL_PWD=`pwd`
 
 cd "${HOME}"
 
-load_conf "${PROFILE_CORE}"
-load_conf "${PROFILE_CORE}/${PLATFORM}"
+load_conf "${PROFILE_CORE}" 2>> ~/.bashiniterrors
+load_conf "${PROFILE_CORE}/${PLATFORM}" 2>> ~/.bashiniterrors
 
 if ! is_home_dir "${PROFILE_CUSTOM}"; then
-  load_conf "${PROFILE_CUSTOM}"
-  load_conf "${PROFILE_CUSTOM}/${PLATFORM}"
+  load_conf "${PROFILE_CUSTOM}" 2>> ~/.bashiniterrors
+  load_conf "${PROFILE_CUSTOM}/${PLATFORM}" 2>> ~/.bashiniterrors
 fi
 
 cd "${ORIGINAL_PWD}"
