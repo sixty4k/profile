@@ -21,6 +21,19 @@ else
   exit 99
 fi
 
+echo "> Xcode CLI tools"
+# Only run if the tools are not installed yet
+# To check that try to print the SDK path
+xcode-select -p &> /dev/null
+if [ $? -ne 0 ]; then
+  touch /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress;
+  PROD=$(softwareupdate -l |
+    grep "\*.*Command Line" |
+    tail -n 1 | sed 's/^[^C]* //')
+    echo "Prod: ${PROD}"
+  softwareupdate -i "$PROD" --verbose;
+fi
+
 echo "> Create ~/Repos"
 mkdir Repos
 cd Repos
