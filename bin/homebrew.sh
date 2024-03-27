@@ -5,7 +5,12 @@
 if test ! $(which brew); then
   echo "> Installing homebrew..."
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+  # Make sure we can _run_ homebrew
+  eval "$(/opt/homebrew/bin/brew shellenv)"
+
 fi
+
 
 # Update homebrew recipes
 brew update
